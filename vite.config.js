@@ -4,9 +4,9 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/ai-web-landing/',
   plugins: [
     react(),
     tailwindcss(),
-    base: '/ai-web-landing/',
   ],
 })
